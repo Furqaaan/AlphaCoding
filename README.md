@@ -13,3 +13,9 @@ This is the lowest hanging fruit in creating an impressive GitHub repository. Yo
 
 3) 𝗔𝗱𝗱 𝗘𝗺𝗼𝗷𝗶 𝗮𝗻𝗱 𝗚𝗜𝗙𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗥𝗲𝗮𝗱𝗠𝗲 𝗳𝗶𝗹𝗲 \
 The ReadME file is the first thing that a user sees. The ReadMe is the first thing a visitor sees when they visit the repository, so taking some time to create a polished repository is crucial. It should describe what problem the code solves, how to set it up, and any other relevant information.
+
+Autocorrection
+--------------------
+git config --global help.autocorrect 1
+
+This command enables the autocorrection feature.Instead of suggesting an alternative subcommand, Git now just runs the top suggestion
