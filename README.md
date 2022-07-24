@@ -39,7 +39,7 @@ Javascript
 
 Check battery status with javascript 
 ------------------------------------------
-
+```javascript
 if(navigator.getBattery){
     // if battery API is working
     navigator.getBattery()
@@ -56,3 +56,4 @@ if(navigator.getBattery){
 else{
     // if battery API is not working
 }
+```
