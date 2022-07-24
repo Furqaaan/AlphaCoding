@@ -57,3 +57,5 @@ else{
     // if battery API is not working
 }
 ```
+
+The promise returns a BatteryManager object which have several properties and methods related to battery and charging.
