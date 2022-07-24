@@ -29,3 +29,30 @@ Autocorrection
 git config --global help.autocorrect 1
 
 This command enables the autocorrection feature.Instead of suggesting an alternative subcommand, Git now just runs the top suggestion
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+Javascript
+---------------------------
+
+Check battery status with javascript 
+------------------------------------------
+
+if(navigator.getBattery){
+    // if battery API is working
+    navigator.getBattery()
+    .then(function(battery) {
+
+        // Get current battery level .
+        var batteryLevel = battery.level * 100;
+        console.log(batteryLevel);
+    })
+    .catch(function(e) {
+        console.error(e);
+    });
+}
+else{
+    // if battery API is not working
+}
